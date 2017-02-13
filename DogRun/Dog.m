@@ -20,7 +20,6 @@
 - (void)run {
 
     dogRun = [[DogRun alloc]initWithPosition:CGPointMake(0, 0)];
-    [dogJump removeFromParent];
     [scena addChild:dogRun];
 
 }
