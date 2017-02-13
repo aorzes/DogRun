@@ -16,6 +16,9 @@
 		ECEFD92D1E507C15004FD7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEFD92B1E507C15004FD7A7 /* Main.storyboard */; };
 		ECEFD92F1E507C15004FD7A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEFD92E1E507C15004FD7A7 /* Assets.xcassets */; };
 		ECEFD9321E507C15004FD7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEFD9301E507C15004FD7A7 /* LaunchScreen.storyboard */; };
+		ECEFD93C1E50837F004FD7A7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEFD93A1E507D12004FD7A7 /* Dog.m */; };
+		ECEFD93F1E51B016004FD7A7 /* DogJump.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEFD93E1E51B016004FD7A7 /* DogJump.m */; };
+		ECEFD9421E520826004FD7A7 /* DogRun.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEFD9411E520826004FD7A7 /* DogRun.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,12 @@
 		ECEFD92E1E507C15004FD7A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECEFD9311E507C15004FD7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECEFD9331E507C15004FD7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEFD9391E507D12004FD7A7 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		ECEFD93A1E507D12004FD7A7 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		ECEFD93D1E51B016004FD7A7 /* DogJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogJump.h; sourceTree = "<group>"; };
+		ECEFD93E1E51B016004FD7A7 /* DogJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogJump.m; sourceTree = "<group>"; };
+		ECEFD9401E520826004FD7A7 /* DogRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogRun.h; sourceTree = "<group>"; };
+		ECEFD9411E520826004FD7A7 /* DogRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogRun.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +78,12 @@
 				ECEFD91F1E507C15004FD7A7 /* AppDelegate.m */,
 				ECEFD9211E507C15004FD7A7 /* GameScene.sks */,
 				ECEFD9231E507C15004FD7A7 /* Actions.sks */,
+				ECEFD9391E507D12004FD7A7 /* Dog.h */,
+				ECEFD93A1E507D12004FD7A7 /* Dog.m */,
+				ECEFD9401E520826004FD7A7 /* DogRun.h */,
+				ECEFD9411E520826004FD7A7 /* DogRun.m */,
+				ECEFD93D1E51B016004FD7A7 /* DogJump.h */,
+				ECEFD93E1E51B016004FD7A7 /* DogJump.m */,
 				ECEFD9251E507C15004FD7A7 /* GameScene.h */,
 				ECEFD9261E507C15004FD7A7 /* GameScene.m */,
 				ECEFD9281E507C15004FD7A7 /* GameViewController.h */,
@@ -166,6 +181,9 @@
 			files = (
 				ECEFD92A1E507C15004FD7A7 /* GameViewController.m in Sources */,
 				ECEFD9201E507C15004FD7A7 /* AppDelegate.m in Sources */,
+				ECEFD93F1E51B016004FD7A7 /* DogJump.m in Sources */,
+				ECEFD9421E520826004FD7A7 /* DogRun.m in Sources */,
+				ECEFD93C1E50837F004FD7A7 /* Dog.m in Sources */,
 				ECEFD9271E507C15004FD7A7 /* GameScene.m in Sources */,
 				ECEFD91D1E507C15004FD7A7 /* main.m in Sources */,
 			);
@@ -326,6 +344,7 @@
 				ECEFD9381E507C15004FD7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
