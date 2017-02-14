@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECED89A21E534BC2009F86F9 /* DogWalk.m in Sources */ = {isa = PBXBuildFile; fileRef = ECED89A11E534BC2009F86F9 /* DogWalk.m */; };
 		ECEFD91D1E507C15004FD7A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEFD91C1E507C15004FD7A7 /* main.m */; };
 		ECEFD9201E507C15004FD7A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEFD91F1E507C15004FD7A7 /* AppDelegate.m */; };
 		ECEFD9221E507C15004FD7A7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECEFD9211E507C15004FD7A7 /* GameScene.sks */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECED89A01E534BC2009F86F9 /* DogWalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogWalk.h; sourceTree = "<group>"; };
+		ECED89A11E534BC2009F86F9 /* DogWalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogWalk.m; sourceTree = "<group>"; };
 		ECEFD9181E507C15004FD7A7 /* DogRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEFD91C1E507C15004FD7A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECEFD91E1E507C15004FD7A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 				ECEFD9231E507C15004FD7A7 /* Actions.sks */,
 				ECEFD9391E507D12004FD7A7 /* Dog.h */,
 				ECEFD93A1E507D12004FD7A7 /* Dog.m */,
+				ECED89A01E534BC2009F86F9 /* DogWalk.h */,
+				ECED89A11E534BC2009F86F9 /* DogWalk.m */,
 				ECEFD9401E520826004FD7A7 /* DogRun.h */,
 				ECEFD9411E520826004FD7A7 /* DogRun.m */,
 				ECEFD93D1E51B016004FD7A7 /* DogJump.h */,
@@ -184,6 +189,7 @@
 				ECEFD93F1E51B016004FD7A7 /* DogJump.m in Sources */,
 				ECEFD9421E520826004FD7A7 /* DogRun.m in Sources */,
 				ECEFD93C1E50837F004FD7A7 /* Dog.m in Sources */,
+				ECED89A21E534BC2009F86F9 /* DogWalk.m in Sources */,
 				ECEFD9271E507C15004FD7A7 /* GameScene.m in Sources */,
 				ECEFD91D1E507C15004FD7A7 /* main.m in Sources */,
 			);

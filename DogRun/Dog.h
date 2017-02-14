@@ -9,11 +9,13 @@
 #import <SpriteKit/SpriteKit.h>
 #import "DogJump.h"
 #import "DogRun.h"
+#import "DogWalk.h"
 
 @interface Dog : SKSpriteNode
 {
     DogRun *dogRun;
     DogJump *dogJump;
+    DogWalk *dogWalk;
     SKScene *scena;
 }
 
@@ -22,6 +24,7 @@
 - (id)initWithScene:(SKScene *)scene;
 - (void)run;
 - (void)jump;
+- (void)walk;
 
 
 @end

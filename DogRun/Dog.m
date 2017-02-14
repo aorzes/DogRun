@@ -18,7 +18,8 @@
 }
 
 - (void)run {
-
+    [dogRun removeFromParent];
+    [dogWalk removeFromParent];
     dogRun = [[DogRun alloc]initWithPosition:CGPointMake(0, 0)];
     [scena addChild:dogRun];
 
@@ -28,8 +29,18 @@
     _jmp = true;
     dogJump = [[DogJump alloc]initWithPosition:CGPointMake(0, 0)];
     [dogRun removeFromParent];
+    [dogWalk removeFromParent];
     [scena addChild:dogJump];
     
 }
+
+- (void)walk {
+    [dogRun removeFromParent];
+    [dogWalk removeFromParent];
+    dogWalk = [[DogWalk alloc]initWithPosition:CGPointMake(0, 0)];
+    [scena addChild:dogWalk];
+    
+}
+
 
 @end
